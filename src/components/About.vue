@@ -43,7 +43,7 @@ const tools = [
       />
 
       <div>
-        <p class="text-sm md:text-base">
+        <p>
           I am a <span class="text-cyan-500">MEVN-stack </span>developer based
           in Nairobi, Kenya. My interest in web development began in 2021 when I
           first learnt HTML and CSS in my second year of pursuing my Bachelor's

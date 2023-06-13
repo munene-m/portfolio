@@ -33,7 +33,7 @@ const tools = [
 </script>
 
 <template>
-  <section class="pb-24 font-inter text-sm md:text-base" id="projects" >
+  <section class="pb-24 font-inter text-base" id="projects" >
     <h2 class="font-inter text-cyan-500 text-2xl pb-10">
       Projects I have completed
     </h2>
