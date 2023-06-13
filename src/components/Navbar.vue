@@ -122,7 +122,7 @@ const scrollTo = (target) => {
 .mobile-menu {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 70px;
   /* height: 100%; */
   width: 10rem;
   background-color: #393939;
