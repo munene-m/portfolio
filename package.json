@@ -12,6 +12,7 @@
     "test:unit:dev": "cypress open --component"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "vue": "^3.3.2",
     "vue-router": "^4.2.0"
   },
