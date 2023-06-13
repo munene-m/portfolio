@@ -160,7 +160,7 @@ const tools = [
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
           I collaborated with
           <a
-            href="https://github.com/zero-stealth"
+            href="https://collins-odongo.netlify.app/"
             class="text-cyan-500 cursor-pointer"
           >
             <u>Collins</u>
