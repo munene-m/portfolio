@@ -26,6 +26,10 @@ const tools = [
     id: 2,
     name: "Nuxt js",
   },
+  {
+    id: 7,
+    name: "Mongo DB"
+  }
 ];
 </script>
 
