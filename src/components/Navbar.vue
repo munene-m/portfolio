@@ -32,7 +32,7 @@ const scrollTo = (target) => {
 <template>
       <header>
     <nav
-      class="px-3 py-4 mx-auto md:flex md:justify-between z-50 md:items-center dark:text-gray-200 font-mono shadow-md fixed top-0 left-0 right-0 bg-[#393939]"
+      class="px-3 py-4 md:flex md:justify-between z-50 md:items-center dark:text-gray-200 font-mono shadow-md fixed top-0 left-0 right-0 w-screen bg-[#393939]"
     >
       <div class="flex items-center justify-between">
         <ul>
@@ -78,8 +78,8 @@ const scrollTo = (target) => {
       </div>
 
       <transition name="showMenu" mode="ease-in-out">
-        <div v-if="showMenu" class="mobile-menu space-y-4 h-screen md:hidden">
-            <ul>
+        <div v-if="showMenu" >
+            <ul class="mobile-menu space-y-4 h-screen md:hidden text-lg">
           <li @click="scrollTo('hero')"
             class="text-cyan-500 transition-all ease-in duration-150 mr-8"
             >Home</li
@@ -96,11 +96,12 @@ const scrollTo = (target) => {
             class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
             >Contact</li
           >
-          </ul>
-          <div class="grid grid-cols-2 place-items-center">
+          <div class="grid grid-cols-2 place-items-start">
             <a href="https://github.com/munene-m"><GithubIcon class="hover:text-cyan-500"/></a>
             <a href="mailto:munenenjue18@gmail.com"><GmailIcon class="hover:text-cyan-500"/></a>
           </div>
+          </ul>
+          
         </div>
       </transition>
     </nav>
