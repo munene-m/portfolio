@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import { RouterLink } from "vue-router";
+// import { li } from "vue-router";
 import MenuIcon from './icons/MenuIcon.vue'
 import CloseIcon from "./icons/CloseIcon.vue";
 import GithubIcon from './icons/GithubIcon.vue'
@@ -18,20 +18,31 @@ window.addEventListener("resize", () => {
     showMenu.value = false;
   }
 });
+const scrollTo = (target) => {
+  const element = document.getElementById(target);
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+};
 </script>
 
 <template>
       <header>
     <nav
-      class="px-3 py-4 mx-auto md:flex md:justify-between z-10 md:items-center dark:text-gray-200 font-mono shadow-md"
+      class="px-3 py-4 mx-auto md:flex md:justify-between z-50 md:items-center dark:text-gray-200 font-mono shadow-md fixed top-0 left-0 right-0 bg-[#393939]"
     >
       <div class="flex items-center justify-between">
-        <RouterLink to="/"
+        <ul>
+            <li to="/"
           ><img
             src='../assets/m-Icon.svg'
             class="w-12 h-10 flex justify-start"
             alt="M-icon"
-        /></RouterLink>
+        /></li>
+        </ul>
         <div @click="toggleNav" class="flex md:hidden">
           <button
             type="button"
@@ -43,51 +54,49 @@ window.addEventListener("resize", () => {
         </div>
       </div>
 
-      <div class="hidden md:flex md:items-center">
-        <RouterLink 
+      <div > <ul class="hidden md:flex md:items-center">
+        <li 
           class="text-cyan-500 transition-all ease-in duration-150 mr-8"
-          to="/"
-          >Home</RouterLink
+          @click="scrollTo('hero')"
+          >Home</li
         >
-        <RouterLink
+        <li 
           class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-          to="/about"
-          >About</RouterLink
+          @click="scrollTo('about')"
+          >About</li
         >
-        <RouterLink
+        <li
           class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-          to="/about"
-          >Projects</RouterLink
+          @click="scrollTo('projects')"
+          >Projects</li
         >
-        <RouterLink
+        <li
           class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-          to="/about"
-          >Contact</RouterLink
-        >
+          @click="scrollTo('contact')"
+          >Contact</li
+        ></ul>
       </div>
 
       <transition name="showMenu" mode="ease-in-out">
-        <div v-if="showMenu" class="mobile-menu shadow-md space-y-4 md:hidden">
-          <RouterLink @click="closeMenu"
+        <div v-if="showMenu" class="mobile-menu space-y-4 h-screen md:hidden">
+            <ul>
+          <li @click="scrollTo('hero')"
             class="text-cyan-500 transition-all ease-in duration-150 mr-8"
-            to="/"
-            >Home</RouterLink
+            >Home</li
           >
-          <RouterLink @click="closeMenu"
+          <li @click="scrollTo('about')"
             class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            to="/about"
-            >About</RouterLink
+            >About</li
           >
-          <RouterLink @click="closeMenu"
+          <li @click="scrollTo('projects')"
             class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            to="/about"
-            >Projects</RouterLink
+            >Projects</li
           >
-          <RouterLink @click="closeMenu"
+          <li @click="scrollTo('contact')"
             class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            to="/about"
-            >Contact</RouterLink
+            >Contact</li
           >
+          </ul>
           <div class="grid grid-cols-2 place-items-center">
             <a href="https://github.com/munene-m"><GithubIcon class="hover:text-cyan-500"/></a>
             <a href="mailto:munenenjue18@gmail.com"><GmailIcon class="hover:text-cyan-500"/></a>
@@ -113,9 +122,9 @@ window.addEventListener("resize", () => {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
+  /* height: 100%; */
   width: 10rem;
-  background-color: #252525;
+  background-color: #393939;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
