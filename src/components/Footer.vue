@@ -4,7 +4,7 @@ import GmailIcon from './icons/GmailIcon.vue';
 </script>
 
 <template>
-  <footer class="flex justify-center flex-col items-center py-2 bg-[#252525] text-sm md:text-base">
+  <footer class="flex justify-center flex-col rounded-t-md items-center py-2 bg-[#252525] text-sm md:text-base">
     <p class="flex items-center text-center">Built by Munene.</p>
     <div class="grid grid-cols-2 gap-2 pt-1 place-items-center">
       <a href="https://github.com/munene-m"
