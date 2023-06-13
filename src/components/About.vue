@@ -30,8 +30,8 @@ const tools = [
 </script>
 
 <template>
-  <section class="py-28" id="about" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700">
-    <h2 class="font-inter text-cyan-500 text-2xl pb-10">About me</h2>
+  <section class="py-28 font-inter" id="about" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700">
+    <h2 class="text-cyan-500 text-2xl pb-10">About me</h2>
 
     <article
       class="grid sm:grid-cols-2 grid-cols-1 gap-10 justify-items-center place-items-center"
