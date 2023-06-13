@@ -15,6 +15,7 @@ import Footer from "../components/Footer.vue";
     <About />
     <Projects/>
     <Contact/>
-  </main>
 <Footer />
+
+  </main>
 </template>
