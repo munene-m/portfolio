@@ -5,7 +5,7 @@
     <h2 class="pb-4 text-5xl sm:text-5xl font-bold text-center">
       Get in touch
     </h2>
-    <p class="md:w-1/3 w-full m-auto text-center text-sm md:text-base">
+    <p class="md:w-1/2 m-auto text-center text-sm md:text-base">
       I am currently looking for opportunities as a junior software engineer and
       I am always free to talk about that and any other interesting projects you
       may have.
