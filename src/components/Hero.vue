@@ -1,5 +1,5 @@
 <script setup>
-import resume from '../assets/resume/resume.pdf'
+import resume from '../assets/resume/resume(1).pdf'
 function downloadResume() {
   const resumeUrl = resume;
   const link = document.createElement('a');
