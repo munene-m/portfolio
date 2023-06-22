@@ -44,7 +44,7 @@ const scrollTo = (target) => {
         /></li>
         </ul>
         <div @click="toggleNav" class="flex md:hidden">
-          <button
+          <button aria-label="toggleMobileMenu"
             type="button"
             class="text-gray-100 hover:text-cyan-500 focus:outline-none focus:text-gray-400"
           >

@@ -17,7 +17,7 @@ function downloadResume() {
         <h1 class="font-inter pb-4 text-5xl sm:text-6xl text-[#dcd5d1] font-bold">MacMillan Munene.</h1>
         <h2 class="font-inter pb-4 font-bold text-zinc-500 text-4xl sm:text-5xl">I build cool stuff on the web.</h2>
         <p class="sm:w-1/2 w-full text-lg pb-6">I am a software developer focused on building beautiful and interactive user experiences using tools such as Vue.js, Nuxt and Tailwind as well as RESTful APIs using Node.js.</p>
-        <button @click="downloadResume"
+        <button @click="downloadResume" aria-label="This button is responsible for downloading my resume"
          class="px-5 py-3 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-zinc-800 transition-all eas duration-200">Check out my resume 🔎</button>
     </section>
 </template>

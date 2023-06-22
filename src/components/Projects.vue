@@ -68,16 +68,16 @@ const tools = [
         </div>
 
         <div class="flex justify-start gap-5 pt-10">
-          <a
+          <a aria-label="View this project on github"
             href="https://github.com/munene-m/e-commerce"
-            class="hover:text-cyan-500 transition-all duration-200"
+            class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><GithubIcon
-          /></a>
-          <a
+          />View on Github</a>
+          <a aria-label="View the live version of this project"
             href="https://e-commerce-munene-m.vercel.app/"
-            class="hover:text-cyan-500 transition-all duration-200"
+            class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon
-          /></a>
+          />View Live</a>
         </div>
       </div>
       <div class="relative group order-first lg:order-last">
@@ -138,11 +138,11 @@ const tools = [
         </div>
 
         <div class="flex justify-end pt-10">
-          <a
+          <a aria-label="View the live version of this project"
             href="https://kipaji.app"
-            class="hover:text-cyan-500 transition-all duration-200"
+            class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon
-          /></a>
+          />View Live</a>
         </div>
       </div>
     </div>
@@ -159,7 +159,7 @@ const tools = [
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
           I collaborated with
-          <a
+          <a aria-label="See Collins' portfolio"
             href="https://collins-odongo.netlify.app/"
             class="text-cyan-500 cursor-pointer"
           >
@@ -188,16 +188,16 @@ const tools = [
         </div>
 
         <div class="flex justify-start gap-5 pt-10">
-          <a
+          <a aria-label="View this project on Github"
             href="https://github.com/munene-m/Predictions-server"
-            class="hover:text-cyan-500 transition-all duration-200"
+            class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><GithubIcon
-          /></a>
-          <a
+          />View on Github</a>
+          <a aria-label="View the live version of this project"
             href="https://predictionsite.vercel.app/"
-            class="hover:text-cyan-500 transition-all duration-200"
+            class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon
-          /></a>
+          />View Live</a>
         </div>
       </div>
       <div class="relative group order-first lg:order-last">

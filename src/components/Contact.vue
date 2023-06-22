@@ -10,7 +10,7 @@
       I am always free to talk about that and any other interesting projects you
       may have.
     </p>
-    <button
+    <button aria-label="redirectToEmail"
       @click="redirectToEmail"
       class="border border-cyan-500 rounded-md py-4 px-3 mt-5 hover:bg-cyan-500 text-sm md:text-base hover:scale-105 transition-all duration-300"
     >
