@@ -48,7 +48,7 @@ const tools = [
 
       <div>
         <p>
-          I am a <span class="text-cyan-500">MEVN-stack </span>developer based
+          I am a <span class="text-cyan-500">Full-stack </span>developer based
           in Nairobi, Kenya. My interest in web development began in 2021 when I
           first learnt HTML and CSS in my second year of pursuing my Bachelor's
           degree in Business and IT. Since then I have been creating projects
