@@ -29,6 +29,10 @@ const tools = [
   {
     id: 7,
     name: "Mongo DB"
+  },
+  {
+    id: 8,
+    name: "Vitest"
   }
 ];
 </script>
