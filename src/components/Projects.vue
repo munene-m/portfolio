@@ -55,6 +55,9 @@ const tools = [
           <ul
             class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
           >
+          <li class="flex items-center">
+              <BulbIcon class="text-cyan-500" /> Vue.js
+            </li>
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Node.js
             </li>
