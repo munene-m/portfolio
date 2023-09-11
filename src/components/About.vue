@@ -16,7 +16,7 @@ const tools = [
   },
   {
     id: 5,
-    name: "Express js",
+    name: "Typescript",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ const tools = [
   },
   {
     id: 8,
-    name: "Vitest"
+    name: "Redis"
   }
 ];
 </script>
