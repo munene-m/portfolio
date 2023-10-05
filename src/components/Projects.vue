@@ -46,7 +46,7 @@ const tools = [
       data-aos-easing="linear"
     >
       <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
-        <h2 class="font-bold text-xl text-cyan-500 md:text-inherit">
+        <h2 class="font-bold text-xl text-cyan-500">
           E-commerce website
         </h2>
 
@@ -124,7 +124,7 @@ const tools = [
       </div>
 
       <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500 md:text-inherit">
+        <h2 class="font-bold text-xl text-end text-cyan-500">
           Kipaji app
         </h2>
 
@@ -177,7 +177,7 @@ const tools = [
           class="text-zinc-900 px-2 text-sm rounded-2xl bg-cyan-100 border-2 border-cyan-100 mb-2"
           >Featured project</span
         >
-        <h2 class="font-bold text-xl pb-2 text-cyan-500 md:text-inherit">
+        <h2 class="font-bold text-xl pb-2 text-cyan-500 ">
           Sport predictions website
         </h2>
 
@@ -221,7 +221,7 @@ const tools = [
           >
           <a
             aria-label="View the live version of this project"
-            href="https://predictionsite.vercel.app/"
+            href="https://sportypredict.com/"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon />View Live</a
           >
@@ -260,7 +260,7 @@ const tools = [
       </div>
 
       <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500 md:text-inherit">
+        <h2 class="font-bold text-xl text-end text-cyan-500">
           Mobile Eats
         </h2>
 
