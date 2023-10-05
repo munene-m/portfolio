@@ -129,7 +129,7 @@ const tools = [
         </h2>
 
         <p
-          class="bg-inherit py-4 text-up w-full md:w-5/6 md:ml-auto md:p-0 md:pb-4"
+          class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
         >
           A social platform for fans to be involved in the operations, decision
           and growth of local sports club. This is a dApp(Decentralized
@@ -265,13 +265,13 @@ const tools = [
         </h2>
 
         <p
-          class="bg-inherit py-4 text-up w-full md:w-5/6 md:ml-auto md:p-0 md:pb-4"
+          class="bg-inherit py-4 text-up w-full md:w-5/6 text-end md:ml-auto md:p-0 md:pb-4"
         >
           A comprehensive food delivery platform
           designed to provide users with a convenient and enjoyable way to order
           food from their favorite local restaurants and vendors. Customers can explore a wide variety of dining options, place
           orders online, and have their chosen dishes delivered straight to
-          their doorstep.
+          their doorstep. It is built as a Progressive Web Application(PWA) and users can install it on any device.
         </p>
         <div class="grid md:gap-0">
           <ul
