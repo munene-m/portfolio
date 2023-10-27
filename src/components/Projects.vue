@@ -46,9 +46,7 @@ const tools = [
       data-aos-easing="linear"
     >
       <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
-        <h2 class="font-bold text-xl text-cyan-500">
-          E-commerce website
-        </h2>
+        <h2 class="font-bold text-xl text-cyan-500">E-commerce website</h2>
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
           A full stack e-commerce project that has authentication and allows
@@ -124,9 +122,7 @@ const tools = [
       </div>
 
       <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500">
-          Kipaji app
-        </h2>
+        <h2 class="font-bold text-xl text-end text-cyan-500">Kipaji app</h2>
 
         <p
           class="bg-inherit py-4 text-up w-full text-end md:w-5/6 md:ml-auto md:p-0 md:pb-4"
@@ -177,7 +173,7 @@ const tools = [
           class="text-zinc-900 px-2 text-sm rounded-2xl bg-cyan-100 border-2 border-cyan-100 mb-2"
           >Featured project</span
         >
-        <h2 class="font-bold text-xl pb-2 text-cyan-500 ">
+        <h2 class="font-bold text-xl pb-2 text-cyan-500">
           Sport predictions website
         </h2>
 
@@ -260,18 +256,17 @@ const tools = [
       </div>
 
       <div class="py-4 md:p-0 bg-inherit rounded-md">
-        <h2 class="font-bold text-xl text-end text-cyan-500">
-          Mobile Eats
-        </h2>
+        <h2 class="font-bold text-xl text-end text-cyan-500">Mobile Eats</h2>
 
         <p
           class="bg-inherit py-4 text-up w-full md:w-5/6 text-end md:ml-auto md:p-0 md:pb-4"
         >
-          A comprehensive food delivery platform
-          designed to provide users with a convenient and enjoyable way to order
-          food from their favorite local restaurants and vendors. Customers can explore a wide variety of dining options, place
-          orders online, and have their chosen dishes delivered straight to
-          their doorstep. It is built as a Progressive Web Application(PWA) and users can install it on any device.
+          A comprehensive food delivery platform designed to provide users with
+          a convenient and enjoyable way to order food from their favorite local
+          restaurants and vendors. Customers can explore a wide variety of
+          dining options, place orders online, and have their chosen dishes
+          delivered straight to their doorstep. It is built as a Progressive Web
+          Application(PWA) and users can install it on any device.
         </p>
         <div class="grid md:gap-0">
           <ul
@@ -284,7 +279,7 @@ const tools = [
               <BulbIcon class="text-cyan-500" /> Tailwind CSS
             </li>
             <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Node.js
+              <BulbIcon class="text-cyan-500" /> Typescript
             </li>
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Mongo DB
