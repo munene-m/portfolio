@@ -78,12 +78,16 @@ const tools = [
           <a
             aria-label="View this project on github"
             href="https://github.com/munene-m/e-commerce"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><GithubIcon />View on Github</a
           >
           <a
             aria-label="View the live version of this project"
             href="https://e-commerce-munene-m.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon />View Live</a
           >
@@ -131,7 +135,7 @@ const tools = [
           and growth of local sports club. This is a dApp(Decentralized
           application) built on top of the Stellar platform and consumes APIs
           from the
-          <a href="https://benkiko.io"
+          <a href="https://benkiko.io" target="_blank" rel="noopener noreferrer"
             ><u class="text-cyan-500 cursor-pointer">Benkiko ecosystem</u></a
           >
           . I worked on transforming the figma UI/UX designs to a functional
@@ -154,6 +158,8 @@ const tools = [
           <a
             aria-label="View the live version of this project"
             href="https://kipaji.app"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon />View Live</a
           >
@@ -182,6 +188,8 @@ const tools = [
           <a
             aria-label="See Collins' portfolio"
             href="https://collins-odongo.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             class="text-cyan-500 cursor-pointer"
           >
             <u>Collins</u>
@@ -212,12 +220,16 @@ const tools = [
           <a
             aria-label="View this project on Github"
             href="https://github.com/munene-m/Predictions-server"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><GithubIcon />View on Github</a
           >
           <a
             aria-label="View the live version of this project"
             href="https://sportypredict.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon />View Live</a
           >
@@ -297,6 +309,8 @@ const tools = [
           <a
             aria-label="View the live version of this project"
             href="https://www.mobile-eat.com/"
+            target="_blank"
+            rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
             ><LinkIcon />View Live</a
           >
