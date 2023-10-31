@@ -143,7 +143,7 @@ const tools = [
         </p>
         <div class="grid md:gap-0">
           <ul
-            class="font-mono sm:pt-6 sm:text-black md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
+            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
           >
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Vue.js
@@ -202,7 +202,7 @@ const tools = [
 
         <div class="grid md:gap-0">
           <ul
-            class="font-mono sm:pt-6 sm:text-black md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
+            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
           >
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Node.js
@@ -282,7 +282,7 @@ const tools = [
         </p>
         <div class="grid md:gap-0">
           <ul
-            class="font-mono sm:pt-6 sm:text-black md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
+            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-end gap-4"
           >
             <li class="flex items-center">
               <BulbIcon class="text-cyan-500" /> Vue.js
