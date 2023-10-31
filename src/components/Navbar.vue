@@ -32,19 +32,19 @@ const scrollTo = (target) => {
 <template>
   <header>
     <nav
-      class="px-3 py-4 md:flex md:justify-between z-50 md:items-center dark:text-gray-200 font-mono shadow-md top-0 left-0 right-0 w-full bg-[#393939]"
+      class="px-3 py-4 md:flex md:justify-center z-50 md:fixed md:items-center dark:text-gray-200 font-mono shadow-md top-0 left-0 right-0 w-full bg-[#393939]"
     >
-      <div class="flex items-center justify-between">
-        <ul>
-          <li to="/">
-            <!-- <img
+      <div class="flex items-center">
+        <!-- <ul> -->
+        <!-- <li to="/"> -->
+        <!-- <img
             src='../assets/m-Icon.svg'
             class="w-12 h-10 flex justify-start"
             alt="M-icon"
         /> -->
-          </li>
-        </ul>
-        <div @click="toggleNav" class="flex md:hidden">
+        <!-- </li> -->
+        <!-- </ul> -->
+        <div @click="toggleNav" class="flex ml-auto md:hidden">
           <button
             aria-label="toggleMobileMenu"
             type="button"
