@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base { 
-    body{
-        background-color: #333333;
-        color: #fff;
-}
+@layer base {
+  body {
+    background-color: #181818;
+    color: #fff;
+  }
 }
