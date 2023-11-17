@@ -5,6 +5,7 @@ import MenuIcon from "./icons/MenuIcon.vue";
 import CloseIcon from "./icons/CloseIcon.vue";
 import GithubIcon from "./icons/GithubIcon.vue";
 import GmailIcon from "./icons/GmailIcon.vue";
+import LinkedInIcon from "./icons/LinkedInIcon.vue";
 
 let showMenu = ref(false);
 function toggleNav() {
@@ -32,18 +33,9 @@ const scrollTo = (target) => {
 <template>
   <header>
     <nav
-      class="px-3 py-4 md:flex md:justify-center z-50 md:fixed md:items-center dark:text-gray-200 font-mono shadow-md top-0 left-0 right-0 w-full bg-[#393939]"
+      class="px-3 py-4 md:flex md:justify-center z-50 md:fixed md:items-center dark:text-gray-200 font-mono top-0 left-0 right-0 w-full bg-[#181818] backdrop-blur-md backdrop-filter bg-opacity-30"
     >
       <div class="flex items-center">
-        <!-- <ul> -->
-        <!-- <li to="/"> -->
-        <!-- <img
-            src='../assets/m-Icon.svg'
-            class="w-12 h-10 flex justify-start"
-            alt="M-icon"
-        /> -->
-        <!-- </li> -->
-        <!-- </ul> -->
         <div @click="toggleNav" class="flex ml-auto md:hidden">
           <button
             aria-label="toggleMobileMenu"
@@ -85,75 +77,63 @@ const scrollTo = (target) => {
         </ul>
       </div>
 
-      <transition name="showMenu" mode="ease">
-        <div v-if="showMenu">
-          <ul class="mobile-menu space-y-4 h-screen md:hidden text-lg">
-            <li
-              @click="scrollTo('hero')"
-              class="text-cyan-500 transition-all ease-in duration-150 mr-8"
-            >
-              Home
-            </li>
-            <li
-              @click="scrollTo('about')"
-              class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            >
-              About
-            </li>
-            <li
-              @click="scrollTo('projects')"
-              class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            >
-              Projects
-            </li>
-            <li
-              @click="scrollTo('contact')"
-              class="hover:text-cyan-500 transition-all ease-in duration-150 mr-8"
-            >
-              Contact
-            </li>
-            <div class="grid grid-cols-2 place-items-start">
-              <a href="https://github.com/munene-m"
-                ><GithubIcon class="hover:text-cyan-500"
-              /></a>
-              <a href="mailto:munenenjue18@gmail.com"
-                ><GmailIcon class="hover:text-cyan-500"
-              /></a>
-            </div>
-          </ul>
-        </div>
-      </transition>
+      <div
+        v-if="showMenu"
+        class="w-[90%] m-auto p-3 rounded-md shadow-md bg-[#343434] backdrop-blur-lg backdrop-filter bg-opacity-90 h-fit md:hidden text-lg fixed left-0 right-0 top-14 z-50 duration-200 ease-in"
+      >
+        <ul>
+          <li
+            @click="scrollTo('hero')"
+            class="text-cyan-500 transition-all ease-in duration-150"
+          >
+            Home
+          </li>
+          <li
+            @click="scrollTo('about')"
+            class="hover:text-cyan-500 transition-all ease-in duration-150 8"
+          >
+            About
+          </li>
+          <li
+            @click="scrollTo('projects')"
+            class="hover:text-cyan-500 transition-all ease-in duration-150"
+          >
+            Projects
+          </li>
+          <li
+            @click="scrollTo('contact')"
+            class="hover:text-cyan-500 transition-all ease-in duration-150"
+          >
+            Contact
+          </li>
+          <div class="flex items-center gap-3 mt-2">
+            <a
+              href="https://github.com/munene-m"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View my Github page"
+              ><GithubIcon
+                class="transition-all duration-300 hover:text-cyan-500"
+            /></a>
+            <a
+              href="mailto:munenenjue18@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Reach out to me on email"
+              ><GmailIcon
+                class="transition-all duration-300 hover:text-cyan-500"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/macmillan-munene-b97235204/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Link to my linkedIn"
+              ><LinkedInIcon
+                class="transition-all duration-300 hover:text-cyan-500"
+            /></a>
+          </div>
+        </ul>
+      </div>
     </nav>
   </header>
 </template>
-
-<style scoped>
-.showMenu-enter-active,
-.showMenu-leave-active {
-  transition: transform 300ms ease-in;
-}
-
-.showMenu-enter-from,
-.showMenu-leave-to {
-  transform: translateX(-100%);
-}
-
-.mobile-menu {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 10rem;
-  background-color: #393939;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  z-index: 10;
-  padding: 0 20px;
-  padding-top: 8rem;
-}
-
-.mobile-menu a {
-  margin-right: 8px;
-}
-</style>
