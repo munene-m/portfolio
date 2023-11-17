@@ -10,7 +10,7 @@
     </h2>
     <p class="md:w-1/2 m-auto text-center text-sm md:text-base">
       I am currently looking for opportunities as a junior software engineer and
-      Im always free to talk about that and any other interesting projects you
+      I'm always free to talk about that and any other interesting projects you
       may have.
     </p>
     <button
