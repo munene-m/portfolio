@@ -11,11 +11,11 @@ function downloadResume() {
 
 <template>
   <section class="pt-18 py-24 font-inter" id="hero">
-    <p
+    <!-- <p
       class="border border-cyan-500 px-2 rounded-xl mb-5 flex items-center justify-center text-xs lg:text-sm w-fit m-auto animate-scale"
     >
       Available for hire 💡
-    </p>
+    </p> -->
     <p class="font-mono pb-3 text-cyan-500">Hi my name is</p>
     <h1 class="font-inter pb-4 text-5xl sm:text-6xl text-[#dcd5d1] font-bold">
       MacMillan Munene.
