@@ -38,7 +38,7 @@ const tools = [
       Projects I have completed
     </h2>
 
-    <div
+    <!-- <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-28"
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
@@ -104,7 +104,7 @@ const tools = [
           style="height: 100%"
         ></div>
       </div>
-    </div>
+    </div> -->
 
     <div
       class="grid grid-cols-1 md:top-0 mb-28 relative lg:grid-cols-2 gap-4"
