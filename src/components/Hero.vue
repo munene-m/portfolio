@@ -1,5 +1,5 @@
 <script setup>
-import resume from "../assets/resume/Macmillan_Munene_CV.pdf";
+import resume from "../assets/resume/My_Resume.pdf";
 function downloadResume() {
   const resumeUrl = resume;
   const link = document.createElement("a");
