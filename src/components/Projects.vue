@@ -133,7 +133,7 @@ const tools = [
         >
           A social platform for fans to be involved in the operations, decision
           and growth of local sports club. This is a dApp(Decentralized
-          application) built on top of the Stellar platform and consumes APIs
+          application) built on top of the Stellar blockchain and consumes APIs
           from the
           <a href="https://benkiko.io" target="_blank" rel="noopener noreferrer"
             ><u class="text-cyan-500 cursor-pointer">Benkiko ecosystem</u></a
