@@ -3,7 +3,7 @@ import BulbIcon from "./icons/BulbIcon.vue";
 const tools = [
   {
     id: 6,
-    name: "Javascript (ES6+)",
+    name: "Javascript",
   },
   {
     id: 1,
@@ -24,21 +24,27 @@ const tools = [
   },
   {
     id: 2,
-    name: "Nuxt js",
+    name: "React",
   },
   {
     id: 7,
-    name: "Mongo DB"
+    name: "Mongo DB",
   },
   {
     id: 8,
-    name: "Redis"
-  }
+    name: "Redis",
+  },
 ];
 </script>
 
 <template>
-  <section class="py-28 font-inter" id="about" data-aos="flip-left" data-aos-easing="linear" data-aos-duration="700">
+  <section
+    class="py-28 font-inter"
+    id="about"
+    data-aos="flip-left"
+    data-aos-easing="linear"
+    data-aos-duration="700"
+  >
     <h2 class="text-cyan-500 text-2xl pb-10">About me</h2>
 
     <article
