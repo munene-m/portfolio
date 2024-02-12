@@ -315,7 +315,7 @@ const tools = [
       class="grid grid-cols-1 relative lg:grid-cols-2 gap-4 mb-28"
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="700"
+      data-aos-duration="900"
       data-aos-easing="linear"
     >
       <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
