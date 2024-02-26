@@ -10,9 +10,9 @@ function downloadResume() {
 </script>
 
 <template>
-  <section class="pt-18 py-24 font-inter" id="hero">
+  <section class="pt-18 py-20 font-inter" id="hero">
     <!-- <p
-      class="border border-cyan-500 px-2 rounded-xl mb-5 flex items-center justify-center text-xs lg:text-sm w-fit m-auto animate-scale"
+      class="border border-cyan-500 px-2 -z-10 rounded-xl mb-5 flex items-center justify-center text-xs lg:text-sm w-fit m-auto animate-scale"
     >
       Available for hire 💡
     </p> -->
@@ -25,7 +25,7 @@ function downloadResume() {
     </h2>
     <p class="sm:w-1/2 w-full text-lg pb-6">
       I am a software developer focused on building beautiful and interactive
-      user experiences using tools such as Vue.js, Nuxt and Tailwind as well as
+      user experiences using tools such as Vue.js, React and Tailwind as well as
       RESTful APIs using Node.js.
     </p>
     <button
