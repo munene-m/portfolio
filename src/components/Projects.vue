@@ -46,7 +46,7 @@ const tools = [
       data-aos-easing="linear"
     >
       <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
-        <h2 class="font-bold text-xl text-cyan-500">E-commerce website</h2>
+        <h2 class="font-bold text-xl text-cyan-500">E-commerce web app</h2>
 
         <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
           A full stack e-commerce project that has authentication and allows
@@ -75,17 +75,10 @@ const tools = [
         </div>
 
         <div class="flex justify-start gap-5 pt-10">
-          <a
-            aria-label="View this project on github"
-            href="https://github.com/munene-m/e-commerce"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-cyan-500 text-sm transition-all duration-200"
-            ><GithubIcon />View on Github</a
-          >
+         
           <a
             aria-label="View the live version of this project"
-            href="https://e-commerce-munene-m.vercel.app/"
+            href="https://www.faridcreations.co.ke/"
             target="_blank"
             rel="noopener noreferrer"
             class="hover:text-cyan-500 text-sm transition-all duration-200"
@@ -251,7 +244,7 @@ const tools = [
       class="grid grid-cols-1 md:top-0 mb-28 relative lg:grid-cols-2 gap-4"
       data-aos="fade-up"
       data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="600"
+      data-aos-duration="800"
       data-aos-easing="linear"
     >
       <div class="relative group">
