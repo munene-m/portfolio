@@ -38,67 +38,6 @@ const tools = [
       Projects I have completed
     </h2>
 
-    <!-- <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-28"
-      data-aos="fade-up"
-      data-aos-anchor-placement="bottom-bottom"
-      data-aos-duration="500"
-      data-aos-easing="linear"
-    >
-      <div class="py-4 md:p-0 bg-inherit rounded-md order-last lg:order-first">
-        <h2 class="font-bold text-xl text-cyan-500">E-commerce web app</h2>
-
-        <p class="bg-inherit py-4 w-full md:w-5/6 md:p-0 md:pb-4">
-          A full stack e-commerce project that has authentication and allows
-          users to add items to cart, edit cart items and browse categories. It
-          also has a an admin panel that enables the admin to manage products in
-          the store.
-        </p>
-
-        <div class="grid md:gap-0">
-          <ul
-            class="font-mono sm:pt-6 md:text-inherit pt-8 flex flex-wrap items-center justify-start gap-4"
-          >
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Vue.js
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Node.js
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Mongo DB
-            </li>
-            <li class="flex items-center">
-              <BulbIcon class="text-cyan-500" /> Express js
-            </li>
-          </ul>
-        </div>
-
-        <div class="flex justify-start gap-5 pt-10">
-         
-          <a
-            aria-label="View the live version of this project"
-            href="https://www.faridcreations.co.ke/"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-cyan-500 text-sm transition-all duration-200"
-            ><LinkIcon />View Live</a
-          >
-        </div>
-      </div>
-      <div class="relative group order-first lg:order-last">
-        <img
-          class="w-full h-full md:mr-auto rounded md:self-center cursor-pointer ease-linear hover:-translate-x-4 hover:translate-y-4 transition-all duration-200"
-          src="../assets/ecommerce-image.png"
-          alt="Screenshot of e-commerce website website"
-        />
-        <div
-          class="absolute -z-10 rounded inset-0 border-4 border-cyan-500 transform transition-all duration-300 group-hover:bg-cyan-500"
-          style="height: 100%"
-        ></div>
-      </div>
-    </div> -->
-
     <div
       class="grid grid-cols-1 md:top-0 mb-28 relative lg:grid-cols-2 gap-4"
       data-aos="fade-up"
