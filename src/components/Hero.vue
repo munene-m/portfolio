@@ -4,7 +4,7 @@ function downloadResume() {
   const resumeUrl = resume;
   const link = document.createElement("a");
   link.href = resumeUrl;
-  link.setAttribute("download", "resume.pdf");
+  link.setAttribute("download", "Macmillan Munene's resume.pdf");
   link.click();
 }
 </script>
