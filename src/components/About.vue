@@ -6,6 +6,10 @@ const tools = [
     name: "Javascript",
   },
   {
+    id: 9,
+    name: "Golang",
+  },
+  {
     id: 1,
     name: "Vue.js",
   },
